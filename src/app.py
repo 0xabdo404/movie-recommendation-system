@@ -133,7 +133,7 @@ def load_model():
 
     movies_dict = pickle.load(
         open(
-            "models/movies_dict.pkl",
+            "models/movie_dict.pkl",
             "rb"
         )
     )
