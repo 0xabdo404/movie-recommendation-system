@@ -4,6 +4,8 @@ This is a **Content-Based Movie Recommender System** that suggests movies simila
 
 ![System Screenshot](assets/scond_screen.png)
 
+## **[App Link](https://movi-recommender.streamlit.app/) --> https://movi-recommender.streamlit.app/**
+
 ## 📌 Project Overview
 
 The goal of this project is to build a practical movie recommendation\
