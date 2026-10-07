@@ -133,7 +133,7 @@ def load_model():
 
     movies_dict = pickle.load(
         open(
-            r"D:\Projects\ML\recommender-system\models\movie_dict.pkl",
+            r"models/movies_dict.pkl",
             "rb"
         )
     )
@@ -142,7 +142,7 @@ def load_model():
 
     similarity = pickle.load(
         open(
-            r"D:\Projects\ML\recommender-system\models\similarity.pkl",
+            r"models/similarity.pkl",
             "rb"
         )
     )
