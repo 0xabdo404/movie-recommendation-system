@@ -1,14 +1,10 @@
 import streamlit as st
 import pickle
-import io
+import os
 import pandas as pd
 import requests
 
 
-url = "https://huggingface.co/0xabdo404/movie-recommendation-system/resolve/main/models/similarity.pkl"
-
-response = requests.get(url)
-similarity = pickle.load(io.BytesIO(response.content))
 
 st.set_page_config(
     page_title="MovieRec",
